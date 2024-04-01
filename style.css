@@ -1,0 +1,109 @@
+body {
+	background-color: #001f4f;
+	font-family: "Raleway", sans-serif;
+	overflow-y: scroll;
+}
+
+.container {
+	width: 350px;
+	height: 450px;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	border-radius: 20px;
+	overflow-y: scroll;
+}
+
+h1 {
+	
+	content:center;
+	color: red;
+	font-weight: 30px;
+	font-size: medium;
+	
+}
+
+.wrapper {
+	padding: 10px;
+}
+
+input{
+	width: 80%;
+	border: none;
+	border-bottom: 1px solid #0074d9;
+	padding: 5px;
+}
+
+*:disabled {
+	background-color: dimgrey;
+	color: linen;
+	opacity: 1;
+  }
+
+
+
+.slidecontainer {
+	width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+	-webkit-appearance: none;  /* Override default CSS styles */
+	appearance: none;
+	width: 80%; /* Full-width */
+	height: 25px; /* Specified height */
+	background: #d3d3d3; /* Grey background */
+	outline: none; /* Remove outline */
+	opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+	-webkit-transition: .2s; /* 0.2 seconds transition on hover */
+	transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+	opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+	-webkit-appearance: none; /* Override default look */
+	appearance: none;
+	width: 25px; /* Set a specific slider handle width */
+	height: 25px; /* Slider handle height */
+	background: #04AA6D; /* Green background */
+	cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+	width: 25px; /* Set a specific slider handle width */
+	height: 25px; /* Slider handle height */
+	background: #04AA6D; /* Green background */
+	cursor: pointer; /* Cursor on hover */
+  }
+
+  label
+  {
+	margin: 5px;
+  }
+  @media screen and (min-width: 55em) {
+	body {
+	  background: url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-2.jpg);
+	}
+  }
+  
+  @media screen and (max-width: 40em) {
+	body {
+		background: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?t=st=1711995084~exp=1711998684~hmac=323bbbb9f2d33ceb783a2ecbc658dd16f0bfca6ac9839dc98b4644841bd403e0&w=1060);
+	}
+  }
+
+  #flex-section ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+  
+}
+
